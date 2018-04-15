@@ -98,8 +98,8 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ALGLIB-3.7.0, Version=3.7.0.0, Culture=neutral, PublicKeyToken=ba48961d6f65dcec, processorArchitecture=MSIL">
-      <Private>False</Private>
+    <Reference Include="ALGLIB-3.7.0">
+      <HintPath>..\..\ExternalDLLs\ALGLIB-3.7.0.dll</HintPath>
     </Reference>
     <Reference Include="HeuristicLab.Problems.DataAnalysis.Symbolic.Regression-3.4, Version=3.4.0.0, Culture=neutral, PublicKeyToken=ba48961d6f65dcec, processorArchitecture=MSIL">
       <HintPath>..\..\bin\HeuristicLab.Problems.DataAnalysis.Symbolic.Regression-3.4.dll</HintPath>

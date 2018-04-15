@@ -106,13 +106,11 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ALGLIB-3.7.0, Version=3.7.0.0, Culture=neutral, PublicKeyToken=ba48961d6f65dcec, processorArchitecture=MSIL">
-      <HintPath>..\..\bin\ALGLIB-3.7.0.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="ALGLIB-3.7.0">
+      <HintPath>..\..\ExternalDLLs\ALGLIB-3.7.0.dll</HintPath>
     </Reference>
-    <Reference Include="LibSVM-3.12, Version=3.12.0.0, Culture=neutral, PublicKeyToken=ba48961d6f65dcec, processorArchitecture=MSIL">
-      <HintPath>..\..\bin\LibSVM-3.12.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="LibSVM-3.12">
+      <HintPath>..\..\ExternalDLLs\LibSVM-3.12.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -319,7 +317,7 @@
     <Compile Include="TSNE\Distances\EuclideanDistance.cs" />
     <Compile Include="TSNE\Distances\IndexedItemDistance.cs" />
     <Compile Include="TSNE\Distances\ManhattanDistance.cs" />
-	<Compile Include="TSNE\Distances\WeightedEuclideanDistance.cs" />
+    <Compile Include="TSNE\Distances\WeightedEuclideanDistance.cs" />
     <Compile Include="TSNE\Distances\IDistance.cs" />
     <Compile Include="TSNE\PriorityQueue.cs" />
     <Compile Include="TSNE\SpacePartitioningTree.cs" />

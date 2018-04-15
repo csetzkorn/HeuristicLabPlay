@@ -98,12 +98,11 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ALGLIB-3.7.0, Version=3.7.0.0, Culture=neutral, PublicKeyToken=ba48961d6f65dcec, processorArchitecture=MSIL">
-      <HintPath>..\..\bin\ALGLIB-3.7.0.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="ALGLIB-3.7.0">
+      <HintPath>..\..\ExternalDLLs\ALGLIB-3.7.0.dll</HintPath>
     </Reference>
-    <Reference Include="EPPlus-4.0.3, Version=4.0.3.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
-      <Private>False</Private>
+    <Reference Include="EPPlus-4.0.3">
+      <HintPath>..\..\ExternalDLLs\EPPlus-4.0.3.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">

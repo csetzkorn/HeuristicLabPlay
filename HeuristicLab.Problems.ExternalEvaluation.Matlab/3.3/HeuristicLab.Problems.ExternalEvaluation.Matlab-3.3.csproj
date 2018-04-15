@@ -80,7 +80,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Interop.MLApp">
-      <HintPath>..\..\bin\Interop.MLApp.dll</HintPath>
+      <HintPath>..\..\ExternalDLLs\Interop.MLApp.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="System" />

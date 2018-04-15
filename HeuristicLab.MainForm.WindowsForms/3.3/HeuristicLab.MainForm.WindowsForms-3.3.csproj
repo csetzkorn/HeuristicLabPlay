@@ -118,9 +118,8 @@
     </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="WeifenLuo.WinFormsUI.Docking-2.7.0, Version=2.7.0.0, Culture=neutral, PublicKeyToken=ba48961d6f65dcec, processorArchitecture=MSIL">
-      <HintPath>..\..\bin\WeifenLuo.WinFormsUI.Docking-2.7.0.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="WeifenLuo.WinFormsUI.Docking-2.7.0">
+      <HintPath>..\..\ExternalDLLs\WeifenLuo.WinFormsUI.Docking-2.7.0.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

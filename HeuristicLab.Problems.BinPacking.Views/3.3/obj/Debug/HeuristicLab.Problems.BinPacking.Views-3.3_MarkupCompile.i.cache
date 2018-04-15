@@ -4,7 +4,7 @@
 library
 C#
 .cs
-D:\Downloads\HeuristicLab-master\HeuristicLab-master\HeuristicLab.Problems.BinPacking.Views\3.3\obj\Debug\
+D:\CSharpProjects\HeuristicLabPlay\HeuristicLab.Problems.BinPacking.Views\3.3\obj\Debug\
 HeuristicLab.Problems.BinPacking.Views
 none
 false
@@ -13,7 +13,7 @@ DEBUG;TRACE
 2-1209213644
 
 121561764611
-21102131786
+212111606294
 Container3DView.xaml;Container2DView.xaml;
 
 False

@@ -88,9 +88,8 @@
     <AssemblyOriginatorKeyFile>HeuristicLab.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Calendar.DayView, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ba48961d6f65dcec, processorArchitecture=MSIL">
-      <HintPath>..\..\bin\Calendar.DayView.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Calendar.DayView">
+      <HintPath>..\..\ExternalDLLs\Calendar.DayView.dll</HintPath>
     </Reference>
     <Reference Include="HeuristicLab.DayView-1.0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ba48961d6f65dcec, processorArchitecture=MSIL">
       <HintPath>..\..\bin\HeuristicLab.DayView-1.0.dll</HintPath>
